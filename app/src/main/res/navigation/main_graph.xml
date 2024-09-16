@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/inicioAccesoFragment">
+
+    <fragment
+        android:id="@+id/inicioAccesoFragment"
+        android:name="com.example.escaner.ui.inicioAcceso.InicioAccesoFragment"
+        android:label="InicioAccesoFragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/registroCorreoFragment"
+        android:name="com.example.escaner.ui.registrocorreo.RegistroCorreoFragment"
+        android:label="RegistroCorreoFragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/bienvenidaFragment"
+        android:name="com.example.escaner.ui.registro.Fragments.Fragments.BienvenidaFragment"
+        android:label="BienvenidaFragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/nombreFragment"
+        android:name="com.example.escaner.ui.registro.Fragments.Fragments.NombreFragment"
+        android:label="NombreFragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/apellidoFragment"
+        android:name="com.example.escaner.ui.registro.Fragments.Fragments.ApellidoFragment"
+        android:label="ApellidoFragment" />
+</navigation>

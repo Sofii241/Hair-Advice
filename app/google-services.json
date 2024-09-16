@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "567250876906",
+    "project_id": "hairadvice-01",
+    "storage_bucket": "hairadvice-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567250876906:android:a475177970f3f42102da93",
+        "android_client_info": {
+          "package_name": "com.example.escaner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567250876906-psc914co08adq6f43k8dg34ugfnsfsi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC77UIdLuQFvIwxJdPSROawixu07ghoJRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567250876906-psc914co08adq6f43k8dg34ugfnsfsi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

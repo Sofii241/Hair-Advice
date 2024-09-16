@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewAlergias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/next6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="300dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/cardview_shadow_end_color"
+                            android:src="@drawable/baseline_chevron_right_24" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtAlergias"
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:text="@string/txtFinRegistro"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="21sp" />
+
+                    <EditText
+                        android:id="@+id/editTxtAlergia"
+                        android:layout_width="354dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:ems="10"
+                        android:hint="Dejar en blanco en caso contrario"
+                        android:inputType="text"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/textViewErr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="TextView"
+                        android:textColor="@color/design_default_color_primary_variant"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <!-- You can add an ImageView for the chip or other icons as needed -->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ProgressBar
+                        android:id="@+id/progressBar2"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:id="@+id/txtFin2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:text="@string/txtFinRegistro2"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:id="@+id/txtFin"
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:text="@string/txtFinRegistro3"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="21sp" />
+
+                </LinearLayout>
+
+                <!-- You can add an ImageView for the chip or other icons as needed -->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

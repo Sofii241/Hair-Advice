@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondointeriorapp"
+        android:fitsSystemWindows="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/sobre_nosotros"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <!-- Introduction Section -->
+                <TextView
+                    android:id="@+id/introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:text="@string/IntroSobreNosotros"
+                    android:textSize="16sp" />
+
+                <!-- Motivation Section -->
+                <TextView
+                    android:id="@+id/motivation_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/motivation_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/motivation_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:text="@string/motivation_content"
+                    android:textSize="16sp" />
+
+                <!-- Mission Section -->
+                <TextView
+                    android:id="@+id/mission_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/mission_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mission_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:text="@string/mission_content"
+                    android:textSize="16sp" />
+
+                <!-- Features Section -->
+                <TextView
+                    android:id="@+id/features_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/features_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/features_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:text="@string/features_content"
+                    android:textSize="16sp" />
+
+                <!-- Objectives Section -->
+                <TextView
+                    android:id="@+id/titulo_menu1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/tit_mn1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/menu1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/menu1" />
+
+                <TextView
+                    android:id="@+id/titulo_menu2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/tt_menu2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sobre_nosotros_menu2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/sobre_nosotros_menu2" />
+
+                <TextView
+                    android:id="@+id/titulo_menu3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/tit_menu3"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sobre_nosots_menu3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/sobre_nosots_menu3" />
+
+                <TextView
+                    android:id="@+id/titulo_menu4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/tt_menu4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sbr_nosotros_menu4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/sbr_nosotros_menu4" />
+
+                <!-- How to Use Section -->
+
+                <TextView
+                    android:id="@+id/how_to_use_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/how_to_use_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/how_to_use_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:text="@string/how_to_use_content"
+                    android:textSize="16sp" />
+
+                <!-- Philosophy Section -->
+                <TextView
+                    android:id="@+id/philosophy_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/philosophy_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/philosophy_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:text="@string/philosophy_content"
+                    android:textSize="16sp" />
+
+                <!-- Conclusion Section -->
+                <TextView
+                    android:id="@+id/conclusion_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/conclusion_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/conclusion_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/conclusion_content"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/soporte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/soporte"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/soporteTexto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/soporteTexto"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</layout>

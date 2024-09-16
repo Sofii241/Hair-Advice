@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sombra -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#40000000"/> <!-- Color de la sombra -->
+            <padding
+                android:bottom="4dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+        </shape>
+    </item>
+
+    <!-- Botón con margen para la sombra -->
+    <item android:bottom="4dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/> <!-- Color del botón -->
+            <!-- Puedes agregar un gradiente o un color sólido aquí -->
+        </shape>
+    </item>
+
+</layer-list>
